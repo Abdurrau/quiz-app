@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Student information</h1>
+        <form action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Student Roll number</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your roll number..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Student name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your  name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Select bach</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="Bach">
+                <option value="australia">bach-1</option>
+                <option value="canada">bach-2</option>
+                <option value="usa">bach-3</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+          </div>
+            <a href="index.html">lets get started</a>
+        
+        </form>
+      </div>
+</body>
+</html>
